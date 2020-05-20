@@ -19,5 +19,10 @@ $( document ).ready(function() {
 
   closeNewsletter.on('click', function() {
     newsletter.slideUp(450);
-  })
+  });
+
+  // preloader
+  $(window).on('load', function() {
+    $('.preloader-wrapper').fadeOut();
+  });
 });

@@ -4,6 +4,11 @@
   }
 }
 @media (max-width: 640px) {
+  /* global */
+  .hidden-xs {
+    display: none;
+  }
+
   /* notification */
   .notification__content p {
     width: 100%;
@@ -14,6 +19,7 @@
     font-size: 12px;
     margin-top: 10px;
   }
+
   /* hero */
   .hero {
     height: auto;
@@ -22,6 +28,7 @@
   .hero__content__intro {
     padding: 5rem 0;
   }
+  
   /* newsletter */
   .newsletter__form input {
     width: 100%;
