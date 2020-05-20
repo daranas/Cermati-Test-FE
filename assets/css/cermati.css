@@ -41,6 +41,7 @@ figure {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
 }
 
@@ -174,6 +175,7 @@ button {
   border-radius: 0;
   padding: 14px 18px;
   font-size: 13px;
+  font-weight: 500;
   margin-top: 15px;
   text-transform: uppercase;
 }
@@ -245,6 +247,8 @@ button {
   color: #ffffff;
   height: 32px;
   width: 18%;
+  font-size: 14px;
+  font-weight: 500;
   vertical-align: top;
   background: #F2A400;
   border-color: #F2A400;
