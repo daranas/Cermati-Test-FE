@@ -1,5 +1,8 @@
 {
   "name": "cermati-test-fe",
   "author": "DaranaSV",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
