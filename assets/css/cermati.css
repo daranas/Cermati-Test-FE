@@ -1,0 +1,75 @@
+/*!
+ * Cermati Frontend Test
+ * by Darana Sukma Vidya (https://darana.id)
+ * 2020
+*/
+
+/* GENERAL */
+* {
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* GLOBAL */
+.text-center {
+  text-align: center;
+}
+
+/* WRAPPER */
+.wrapper {
+  position: relative;
+  background: ​#e5e5e5;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wrapper__row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.wrapper__row:before {
+  display: table;
+  content: '';
+}
+.wrapper__row:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+.wrapper__column {
+  width: 100%;
+  float: left;
+  min-height: 1px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ITEM */
