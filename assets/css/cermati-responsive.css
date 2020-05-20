@@ -3,6 +3,34 @@
     width: 1366px;
   }
 }
+@media (max-width: 640px) {
+  /* notification */
+  .notification__content p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .notification__content button {
+    float: none;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  /* hero */
+  .hero {
+    height: auto;
+    padding-top: 8.5rem;
+  }
+  .hero__content__intro {
+    padding: 5rem 0;
+  }
+  /* newsletter */
+  .newsletter__form input {
+    width: 100%;
+  }
+  .newsletter__form button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 @media (min-width: 480px) {
   .wrapper__column {
     width: 50%;

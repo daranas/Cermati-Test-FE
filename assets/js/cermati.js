@@ -1,8 +1,9 @@
 $( document ).ready(function() {
   // notif
   var notifBar = $('.notification');
+  var notifBtn =$('#getNotif');
   var sectionHero = $('.hero');
-  $('#getNotif').on('click', function() {
+  notifBtn.on('click', function() {
     notifBar.slideUp(120);
     sectionHero.css('padding-top', 0);
   });

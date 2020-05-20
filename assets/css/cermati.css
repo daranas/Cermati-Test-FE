@@ -103,7 +103,7 @@ button {
   top: 0;
   width: 100%;
   z-index: 99;
-  background-color: #F1F1F1;
+  background: #F1F1F1;
 }
 .notification__content {
   font-size: 14px;
@@ -112,6 +112,7 @@ button {
   width: 90%;
   margin: 0;
   color: #444444;
+  font-size: 13px;
   display: inline-block;
 }
 .notification__content button {
@@ -181,7 +182,7 @@ button {
 }
 .hero__content__intro button:hover {
   color: #007bc1;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 
 /* ITEM */
@@ -218,7 +219,7 @@ button {
   color: #ffffff;
   max-width: 640px;
   padding: 1.4rem;
-  background-color: rgba(0, 123, 193, 0.9);
+  background: rgba(0, 123, 193, 0.9);
   z-index: 99;
   display: none;
 }
@@ -252,6 +253,10 @@ button {
   vertical-align: top;
   background: #F2A400;
   border-color: #F2A400;
+}
+.newsletter__form button:hover {
+  background: #e29c08;
+  border-color: #e29c08;
 }
 /* FOOTER */
 footer {
