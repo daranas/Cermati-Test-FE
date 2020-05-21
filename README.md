@@ -33,4 +33,4 @@ Install the dependencies.<br>
 
 ### `grunt`
 
-Builds the app for production to the `build` folder with minified assets.
+Builds the app for production to the `production` folder with minified assets.
